@@ -1,14 +1,14 @@
 import { StyleSheet } from "react-native";
 
 
-const styles = StylesSheet.create({
+const styles = StyleSheet.create({
 
     containerSearch:{
         flexDirection:'row',
         width:'90%',
-        backgroundColor:"white",
+        backgroundColor:'white',
         marginTop:30,
-        alignItems:"center",
+        alignItems:'center',
         borderRadius:3
       },
       inputSearch:{

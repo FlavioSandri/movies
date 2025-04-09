@@ -1,5 +1,5 @@
 import {Text, Image} from 'react-native';
-import styles from './styles';
+import styles from '../banner/styles.js';
 
 export default function Banner(){
     return(

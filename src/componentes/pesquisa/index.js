@@ -1,5 +1,5 @@
-import { Text, View, TextInput } from "react-native-web";
-import styles from "./styles";
+import { Text, View, TextInput } from "react-native";
+import styles from "../pesquisa/styles.js";
 
 export default function Pesquisa(){
     return(

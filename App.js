@@ -3,6 +3,7 @@ import {Feather} from '@expo/vector-icons';
 import Cabeçalho from './src/componentes/cabecalho';
 import Banner from './src/componentes/banner';
 import Pesquisa from './src/componentes/pesquisa';
+import CardMovies from './src/componentes/cardFilmes';
 
 export default function App() {
 const imagem = Math.floor(Math.random() * 4 +1);
@@ -15,6 +16,8 @@ const imagem = Math.floor(Math.random() * 4 +1);
         <Pesquisa/>
 
         <Banner/>
+
+        <CardMovies/> <CardMovies/>
 
 {/*INICIO BANNER*/}
 

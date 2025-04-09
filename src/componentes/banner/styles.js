@@ -7,14 +7,15 @@ const styles = StyleSheet.create({
         marginTop: 15,
         borderRadius: 10
     },
-      textBanner:{
+    textBanner: {
         fontSize: 30,
         color: 'white',
         marginTop: 15,
         marginLeft: -180,
-        fontWeight: 'Bold',
-        alignItems: "center"
+        fontWeight: 'bold',
+        textAlign: 'center'
     }
+      
 
 })
 
