@@ -12,39 +12,9 @@ export default function App() {
   const imagem = Math.floor(Math.random() * 4 + 1);
 
   return (
-    <View style={styles.container}>
-      <StatusBar style="light" />
-
-      <ScrollView>
-        <Cabeçalho />
-        <Pesquisa />
-        <Banner />
-
-        <View style={{ width: "90%", marginTop: 10 }}>
-          <FlatList
-            horizontal={true}
-            data={Filmes}
-            keyExtractor={(item) => item.id.toString()}
-            renderItem={({ item }) => (
-              <CardMovies 
-                titulo={item.nome} 
-                nota={item.nota} 
-                imagem={item.imagem} 
-              />
-            )}
-            showsHorizontalScrollIndicator={false}
-          />
-        </View>
-      </ScrollView>
-    </View>
+    <rotas></rotas>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#141a29',
-    alignItems: "center",
-  },
-});
+
 
