@@ -12,9 +12,10 @@ export default function App() {
   const imagem = Math.floor(Math.random() * 4 + 1);
 
   return (
-    <rotas></rotas>
+    <Rotas></Rotas>
   );
 }
 
+import Rotas from './src/rotas/index';
 
 

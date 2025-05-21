@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, FlatList } from 'react-native';
 import Cabeçalho from '../../componentes/cabecalho';
 import Banner from '../../componentes/banner';
 import Filmes from '../../componentes/src/filmes';
